@@ -17,7 +17,7 @@ a {
 }
 
 a:visited {
-    color: purple;
+    color: #121212;
 }
 
 a:hover, a:focus, a:active {
@@ -79,8 +79,6 @@ a:hover, a:active {
 ----------------------------------------*/
 .hamburger-menu .menu-icon,
 .hamburger-menu .menu-close-icon {
-    width: 44px;
-    height: 44px;
     text-align: center;
     cursor: pointer;
     transition: all 0.5s;
@@ -124,7 +122,7 @@ a:hover, a:active {
 .main-menu li {
     display: block;
     padding: 12px 0;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 500;
     border-bottom: 1px solid #ebebeb;
 }
@@ -135,14 +133,14 @@ a:hover, a:active {
 
 .main-menu li a {
     display: block;
-    color: #a6a6a6;
+    color: #666666;
     text-decoration: none;
     transition: all 0.35s;
 }
 
 .main-menu li a:hover,
 .main-menu li.current-menu-item a {
-    color: #f0437e;
+    color: #0499a8;
 }
 
 /*
@@ -165,7 +163,7 @@ a:hover, a:active {
 }
 
 .social-profiles ul li a:hover {
-    color: #f0437e;
+    color: #0499a8;
 }
 
 .nav-bar-sep {
@@ -197,30 +195,30 @@ a:hover, a:active {
 
     .hamburger-menu .menu-icon, .hamburger-menu .menu-close-icon {
         position: absolute;
-        top: 26px;
-        right: 24px;
+        top: 30px;
+        right: 40px;
     }
 
     .main-menu li {
         position: relative;
     }
 
-    .main-menu li::after {
+    /*.main-menu li::after {
         content: '';
         position: absolute;
         top: 11px;
         right: 0;
         font-family: 'FontAwesome', serif;
-    }
+    }*/
 
     .main-menu li:hover::after,
     .main-menu li.current-menu-item::after {
-        color: #f0437e;
+        color: #0499a8;
     }
 
     .site-navigation {
         position: absolute;
-        top: 78px;
+        top: 80px;
         left: 0;
         z-index: 99;
         width: 100%;
@@ -238,7 +236,7 @@ a:hover, a:active {
     }
 
     .social-profiles ul {
-        padding: 80px 15px 30px;
+        padding: 0px 15px 30px;
         margin: 0;
     }
 }
@@ -257,7 +255,8 @@ a:hover, a:active {
     }
 
     .site-navigation {
-        background: #f7f7f7;
+        /*background: #f7f7f7;*/
+        backdrop-filter: blur(80px);
     }
 
     .site-navigation.show {
@@ -278,16 +277,15 @@ a:hover, a:active {
     }
 
     .site-title {
-        padding: 28px 0 10px 0;
+        padding: 16px 4px 0px 0px;
     }
 
     .hamburger-menu .menu-icon,
     .hamburger-menu .menu-close-icon {
         position: absolute;
-        top: calc(50vh - 22px);
-        left: 15px;
-        width: calc(100% - 30px);
-        padding: 10px 0;
+        top: calc(50vh);
+        left: 12px;
+        width: calc(100% - 32px);
     }
 
     .site-navigation {
@@ -379,7 +377,8 @@ a:hover, a:active {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255,255,255,.9);
+    /*background: rgba(255,255,255,.9);*/
+    backdrop-filter: blur(20px);
     font-family: 'Poppins', sans-serif;
     text-align: center;
     visibility: hidden;
@@ -400,11 +399,16 @@ a:hover, a:active {
 }
 
 .home-page .portfolio-content h3 {
-    font-size: 2.25rem;
+    font-size: 28px;
 }
 
 .portfolio-content h3 a {
-    color: #191919;
+    color: #121212;
+    text-decoration: none;
+}
+
+.portfolio-content h3 a:hover {
+    color: #0499a8;
     text-decoration: none;
 }
 
@@ -418,9 +422,9 @@ a:hover, a:active {
     margin: 0 3px;
 }
 
-.portfolio-content li a {
-    font-size: 0.875rem;
-    color: #a6a6a6;
+.portfolio-content li p {
+    font-size: 16px;
+    color: #666666;
 }
 
 @media screen and (min-width: 768px) {
@@ -643,7 +647,7 @@ a:hover, a:active {
 }
 
 .blog-page .blog-content:hover {
-    background: #f0437e;
+    background: #0499a8;
 }
 
 .blog-page .blog-content header {
@@ -704,7 +708,7 @@ a:hover, a:active {
 }
 
 .blog-page .blog-content footer li a {
-    color: #f0437e;
+    color: #0499a8;
 }
 
 .blog-page .blog-content:hover .entry-content h3 a,
@@ -802,7 +806,7 @@ a:hover, a:active {
 .single-page .entry-header .post-meta a {
     display: inline-block;
     margin-right: 6px;
-    color: #f0437e;
+    color: #0499a8;
 }
 
 .single-post .content-area h1,
@@ -916,7 +920,7 @@ a:hover, a:active {
 .post-comments .reply a:hover {
     border-color: transparent;
     color: #fff;
-    background: #f0437e;
+    background: #0499a8;
 }
 
 .comment-list ol.children {
@@ -985,7 +989,7 @@ a:hover, a:active {
     letter-spacing: 0.15rem;
     outline: none;
     cursor: pointer;
-    background: #f0437e;
+    background: #0499a8;
 }
 
 /*
@@ -1086,4 +1090,139 @@ a:hover, a:active {
 
 .single-page .entry-header .byline .date-format a {
     color: #bfbfbf;
+}
+
+.logo-max {
+    max-width: 80px;
+}
+
+.logo-medium {
+    max-width: 56px;
+    margin-left: -4px;
+}
+
+.intro-title {
+    font-size: 22px;
+    color: #121212;
+    text-align: center;
+}
+
+@media screen and (max-width: 992px){
+    .intro-title {
+    font-size: 22px;
+    color: #121212;
+    text-align: left;
+}
+}
+
+.intro-paragraph {
+    font-size: 15px;
+    color: #666666;
+    text-align: center;
+    padding-top: 8px;
+}
+
+@media screen and (max-width: 992px){
+    .intro-paragraph {
+    font-size: 15px;
+    color: #666666;
+    text-align: left;
+    padding-top: 8px;
+}
+}
+
+.intro {
+    padding: 40px 24px;
+}
+
+@media screen and (max-width: 992px){
+    .intro {
+    padding: 40px 24px 0px;
+}
+}
+
+.menu {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1;
+    color: #121212;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 993px){
+    .menu {
+        transform: rotate(-90deg);
+    }
+    .container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 96px;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+@media screen and (max-width: 992px){
+    .logo-medium {
+        max-width: 56px;
+        margin-bottom: -12px;
+    }
+}
+
+h3 > a {
+  position: relative;
+  color: #666666;
+  text-decoration: none !important;
+}
+
+h3 > a:hover {
+  color: #0499a8 !important;
+}
+
+h3 > a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #0499a8;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+h3 > a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+@media screen and (min-width: 992px){
+.underline a {
+  position: relative;
+  color: #666666 !important;
+  text-decoration: none !important;
+}
+
+.underline a:hover {
+  color: #0499a8 !important;
+}
+
+.underline a::before {
+  content: "";
+  position: absolute;
+  width: 38%;
+  height: 3px;
+  bottom: 0;
+  left: 31%;
+  background-color: #0499a8;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.underline a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
 }
