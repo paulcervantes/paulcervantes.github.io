@@ -353,7 +353,7 @@ a:hover, a:active {
 }
 
 .home-page {
-    padding-top: 15px;
+    padding-top: 22px;
 }
 
 .home-page .portfolio-content {
@@ -394,8 +394,8 @@ a:hover, a:active {
 .portfolio-content h3 {
     margin-bottom: 0;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 1.516px;
+    font-weight: 100;
 }
 
 .home-page .portfolio-content h3 {
@@ -1169,6 +1169,11 @@ a:hover, a:active {
     }
 }
 
+h2 {
+    font-size: 22px;
+    font-weight: 100;
+  }
+
 h3 > a {
   position: relative;
   color: #666666;
@@ -1225,4 +1230,11 @@ h3 > a:hover::before {
   visibility: visible;
   transform: scaleX(1);
 }
+}
+.linkedin {
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 1;
+    color: #121212;
+    text-decoration: none;
 }
