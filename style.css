@@ -29,6 +29,7 @@ body a:hover
 body.dark-theme {
     background-color: #000c19;
     color: #f7f9ff;
+    transition: background-color ease-out .5s;
   }
 body.dark-theme a {
     color: #4d6483;
@@ -45,17 +46,17 @@ body.dark-theme a:hover
     background-color: #f7f9ff;
     position: relative;
     border-radius: 10px;
-    box-shadow: 0px 0px 20px 8px #e2e6f1;
+    transition: background-color ease-out .5s;
 }
 
 .dark-theme .body-wrapper
 {
     background-color: #001429;
-    box-shadow: 0px 0px 20px 8px #000c19;
 }
 
 .dark-theme .page-desc {
     color: #bbc2d4;
+    transition: background-color ease-out .5s;
 }
 
 .project{
