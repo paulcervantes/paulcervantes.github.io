@@ -17,7 +17,8 @@ body a
 {
     text-decoration: none;
     color: #364962;
-    transition: color .2s linear, background-color .2s linear, border-color .2s linear;
+    transition: color .2s linear;
+    font-weight: 400;
 }
 
 body a:hover
@@ -59,18 +60,45 @@ body.dark-theme a:hover
     transition: background-color ease-out .5s;
 }
 
-.project{
-    color: #0499a8;
+.dark-theme .project {
+  color: #bbc2d4;
+  font-weight: 400;
 }
 
-.dark-theme .project {
-  color: #0499a8;
+.menuicon {
+    color: #364962;
+}
+
+.dark-theme .menuicon  {
+    color: #bbc2d4;
+}
+
+.dark-theme span{
+    color: #bbc2d4;
+}
+
+.dark-theme .post-text{
+    color: #bbc2d4;
+}
+
+.dark-theme .post-text a {
+    color: #bbc2d4;
 }
 
 /* End of Dark Mode styles */
 
 .post-text{
-    font-size: 20px;
+    font-size: 17px;
+    color: #364962;
+    line-height: 32px;
+    font-family: 'Lato';
+}
+
+.post-text a{
+    font-size: 17px;
+    color: #364962;
+    line-height: 32px;
+    font-family: 'Lato';
 }
 
 .btn-toggle 
@@ -183,10 +211,6 @@ ul.menu-fullscreen li {
     text-align: center;
     line-height: 70px;
     font-weight: 400;
-}
-
-.menuicon {
-    color: #364962;
 }
 
 .menuicon:hover {
@@ -430,9 +454,6 @@ ul.slides li img
 {
     width: 864px;
     float: left;
-    font-size: 18px;
-    color: #364962;
-    line-height: 32px;
     margin-top: 64px;
 }
 
