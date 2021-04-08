@@ -1395,7 +1395,7 @@ li.left-footer-content.mobile
         bottom: 0px;
         right: 0px;
     }
-    
+
     .header-holder 
     {
         padding-top: 0px;
@@ -1518,7 +1518,6 @@ p::selection {
     .header-holder 
     {
         padding-top: 0px;
-        padding-bottom: 80px;
     }
 
     .content-1330
