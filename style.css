@@ -196,6 +196,7 @@ ul.menu-fullscreen li {
 
 .closeicon {
     color: white;
+    margin-right: 30px;
 }
 
 .closeicon:hover {
