@@ -1065,8 +1065,8 @@ li.left-footer-content.mobile
 
 @media screen and (max-width: 1600px) {
 
-    .grid{
-        padding-bottom: 64px;
+    .body-wrapper {
+        padding-bottom: 120px;
     } 
     
     .content-1330
@@ -1133,8 +1133,8 @@ li.left-footer-content.mobile
 
 @media screen and (max-width: 1450px) {  
 
-    .grid{
-        padding-bottom: 64px;
+    .body-wrapper {
+        padding-bottom: 100px;
     } 
     
     .body-wrapper
@@ -1188,8 +1188,8 @@ li.left-footer-content.mobile
 
 @media screen and (max-width: 1340px) {      
 
-    .grid{
-        padding-bottom: 64px;
+    .body-wrapper {
+        padding-bottom: 80px;
     } 
     
     .content-1330
@@ -1298,10 +1298,11 @@ li.left-footer-content.mobile
     }
 
 }
+
 @media screen and (max-width: 1220px) {    
 
-    .grid{
-        padding-bottom: 80px;
+    .body-wrapper {
+        padding-bottom: 64px;
     } 
     
     .content-1330, .grid-item.p_one
@@ -1327,6 +1328,10 @@ li.left-footer-content.mobile
 }
 
 @media screen and (max-width: 1066px) {    
+
+    .body-wrapper {
+        padding-bottom: 72px;
+    } 
 
     .content-1330, .grid-item.p_one
     {
@@ -1376,6 +1381,10 @@ li.left-footer-content.mobile
 
 @media screen and (max-width: 1020px) {   
 
+    .body-wrapper {
+        padding-bottom: 72px;
+    } 
+
     .one_half, .one_third, .one_fourth, .two_third, .three_fourth, .one_half.margin-0, .one_third.margin-0, .two_third.margin-0, .one_fourth.margin-0, .three_fourth.margin-0
     {
         width: 100%;
@@ -1398,6 +1407,10 @@ li.left-footer-content.mobile
 }
 
 @media screen and (max-width: 925px) {    
+
+    .body-wrapper {
+        padding-bottom: 40px;
+    } 
 
     .menu-index, .menu-indexmenu {
         display: block;
@@ -1552,7 +1565,7 @@ p::selection {
 
 @media screen and (max-width: 805px) { 
 
-    .grid{
+    .body-wrapper {
         padding-bottom: 40px;
     } 
     
@@ -1594,9 +1607,18 @@ p::selection {
 
 }
 
+@media screen and (max-width: 480px) { 
+
+    .body-wrapper {
+        padding-bottom: 20px;
+    } 
+
+}
+
+
 @media screen and (max-width: 375px) { 
 
-    .grid{
+    .body-wrapper {
         padding-bottom: 16px;
     } 
 
