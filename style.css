@@ -805,7 +805,6 @@ ul.archive-list li span
     position: relative;
     display: block;
     border-radius: 10px;
-    margin-bottom: 20px;
 }
 
 .grid-item 
@@ -1066,6 +1065,10 @@ li.left-footer-content.mobile
 
 @media screen and (max-width: 1600px) {
 
+    .grid{
+        padding-bottom: 64px;
+    } 
+    
     .content-1330
     {
         max-width: 1200px;
@@ -1130,6 +1133,10 @@ li.left-footer-content.mobile
 
 @media screen and (max-width: 1450px) {  
 
+    .grid{
+        padding-bottom: 64px;
+    } 
+    
     .body-wrapper
     {
         margin: 3%;
@@ -1181,6 +1188,10 @@ li.left-footer-content.mobile
 
 @media screen and (max-width: 1340px) {      
 
+    .grid{
+        padding-bottom: 64px;
+    } 
+    
     .content-1330
     {
         width: 1020px;
@@ -1289,6 +1300,10 @@ li.left-footer-content.mobile
 }
 @media screen and (max-width: 1220px) {    
 
+    .grid{
+        padding-bottom: 80px;
+    } 
+    
     .content-1330, .grid-item.p_one
     {
         width: 960px;       
@@ -1537,6 +1552,10 @@ p::selection {
 
 @media screen and (max-width: 805px) { 
 
+    .grid{
+        padding-bottom: 40px;
+    } 
+    
     .header-holder 
     {
         padding-top: 0px;
@@ -1572,5 +1591,13 @@ p::selection {
     }
 
 
+
+}
+
+@media screen and (max-width: 375px) { 
+
+    .grid{
+        padding-bottom: 16px;
+    } 
 
 }
