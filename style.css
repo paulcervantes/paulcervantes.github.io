@@ -119,27 +119,7 @@ body.dark-theme a:hover
     margin-left: 8px;
     font-family: 'Work Sans';
     font-weight: 400;
-}
-
-.btn-toggle-full 
-{
-    border: 2px solid #ffffff;
-    padding: 8px 8px;
-    cursor: pointer;
-    background: transparent;
-    font-size: 35px;
-    transition: color .2s linear, background-color .2s linear, border-color .2s linear;
-    outline: none;
-    color: white;
-    margin-top: 12px;
-    font-family: 'Work Sans';
-    font-weight: 400;
-}
-
-.btn-toggle-full:hover 
-{
-    border: 2px solid #364962;
-    color: #364962;
+    border-radius: 4px;
 }
 
 .btn-toggle:hover 
@@ -147,6 +127,28 @@ body.dark-theme a:hover
     border: 2px solid #0499a8;
     color: #0499a8;
 }
+
+.btn-download {
+    border: 1px solid #0499a8;
+    text-align: center;
+    padding: 12px 8px;
+    background: transparent;
+    width: 50%;
+    font-size: 17px;
+    transition: color .2s linear, background-color .2s linear, border-color .2s linear;
+    outline: none;
+    color: #0499a8;
+    font-family: 'Work Sans';
+    font-weight: 300;
+    border-radius: 4px;
+}
+
+.btn-download:hover 
+{
+    background: #0499a8;
+    color: #f7f9ff;
+}
+
 
 input, textarea, select 
 {
@@ -190,7 +192,6 @@ input, textarea, select
 }
 .menu-index, .menu-indexmenu {
     margin-top: 40px;
-    cursor: pointer;
     display: none;
     font-size: 20px;
     float: right;
