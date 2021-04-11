@@ -48,6 +48,8 @@ body.dark-theme a:hover
     position: relative;
     border-radius: 10px;
     transition: background-color ease-out .5s;
+    padding-bottom: 120px;
+
 }
 
 .dark-theme .body-wrapper
@@ -170,10 +172,16 @@ input, textarea, select
     top: 0;
     z-index: 9999;
     background: #0698a7;
+    opacity: 1;
+    transform: translate(0px);
+    transition: opacity ease 2s;
+    
 }
 
-.hidden{
-    display: none;
+.hideFullScreen{
+    opacity: 0;
+    transform: translate(999px);
+    transition: opacity ease 2s;
 }
 
 .menu-index {
