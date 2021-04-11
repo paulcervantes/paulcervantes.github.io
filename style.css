@@ -133,7 +133,7 @@ body.dark-theme a:hover
     text-align: center;
     padding: 12px 8px;
     background: transparent;
-    width: 50%;
+    width: 60%;
     font-size: 17px;
     transition: color .2s linear, background-color .2s linear, border-color .2s linear;
     outline: none;
@@ -147,6 +147,9 @@ body.dark-theme a:hover
 {
     background: #0499a8;
     color: #f7f9ff;
+}
+.avatar {
+    margin-top: 60px;
 }
 
 
