@@ -721,13 +721,6 @@ body.blog .more-posts:hover span
     max-width: 350px;
 }
 
-.single-post .nav-next
-{
-    display: inline-block;
-    float: right;
-    max-width: 350px;
-}
-
 .single-post .nav-previous a, .single-post .nav-next a
 {
     font-weight: 700;
