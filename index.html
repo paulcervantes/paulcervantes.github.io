@@ -37,7 +37,7 @@
         </tbody>
     </table>
 
-    <div class="opacity-nav hidden" id="menuFullScreen">
+    <div class="opacity-nav" id="menuFullScreen">
 
         <div class="menu-index" id="buttons" style="z-index:999999">
             <i class="fa  fa-close closeicon"></i>
@@ -210,10 +210,12 @@
 
     <script>
         function toggleMenuFullScreen() {
-            document.getElementById('menuFullScreen').classList.toggle('hidden')
+            document.getElementById('menuFullScreen')
+            .classList.toggle('showMobileMenu')
         }
         document.getElementById('button').addEventListener('click', toggleMenuFullScreen)
         document.getElementById('buttons').addEventListener('click', toggleMenuFullScreen)
+       
     </script>
 
 </body>
