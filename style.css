@@ -865,7 +865,8 @@ ul.archive-list li span
     text-align: center;   
     display: none;
     color: #0499a8;
-    font-weight: 400;  
+    font-weight: 400;
+    text-shadow: 8px 8px 20px black;  
 }
 
 .grid-item img
@@ -876,7 +877,7 @@ ul.archive-list li span
 
 .grid-item:hover > a img
 {
-    filter: blur(8px);
+    filter: blur(16px);
 }
 
 .grid-item a:hover
