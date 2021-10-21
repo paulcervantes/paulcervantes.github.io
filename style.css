@@ -58,7 +58,7 @@ body.dark-theme a:hover {
 
 .dark-theme .project {
     color: #bbc2d4;
-    font-weight: 400;
+    font-weight: 00;
 }
 
 .menuicon {
@@ -95,6 +95,7 @@ body.dark-theme a:hover {
     color: #364962;
     line-height: 32px;
     font-family: 'Lato';
+    text-decoration: underline;
 }
 
 .btn-toggle {
