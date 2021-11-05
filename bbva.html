@@ -34,7 +34,7 @@
 
      
 
-    <div class="opacity-nav hidden" id="menuFullScreen">
+    <div class="opacity-nav" id="menuFullScreen">
 
         <div class="menu-index" id="buttons" style="z-index:999999">
             <i class="fa  fa-close closeicon"></i>
@@ -44,7 +44,6 @@
             <li><a class="ajax-link" href="index.html">Home</a></li>
             <li><a class="ajax-link" href="about.html">About</a></li>
             <li><a class="ajax-link" href="contact.html">Contact</a></li>
-            <!-- <li><button id="toggleDarkMode" class="btn-toggle">Dark Mode</button></li> -->
         </ul>
 
     </div>
@@ -62,7 +61,7 @@
             </div>
 
             <div class="menu-indexmenu" id="button">
-                <i class="fa fa-bars menuicon"><span>Menu</span></i>
+                <i class="fa menuicon"><span>Menu</span></i>
             </div>
 
             <div class="header-menu right">
@@ -123,14 +122,6 @@
                             <div class="one margin-0">
                                 <img src="images/bbva/bbva3.jpg" alt=""><br>
                             </div>
-                            <p>&nbsp;</p>
-                            <div class="one margin-0">
-                                <iframe width="560" height="315"
-                                    src="https://www.youtube.com/embed/HCWOa_fCTpg?controls=0"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                            </div>
                         </div>
                     </div>
                     <div class="clear"></div>
@@ -180,10 +171,12 @@
 
         <script>
             function toggleMenuFullScreen() {
-                document.getElementById('menuFullScreen').classList.toggle('hidden')
+                document.getElementById('menuFullScreen')
+                    .classList.toggle('showMobileMenu')
             }
             document.getElementById('button').addEventListener('click', toggleMenuFullScreen)
             document.getElementById('buttons').addEventListener('click', toggleMenuFullScreen)
+
         </script>
 
 </body>

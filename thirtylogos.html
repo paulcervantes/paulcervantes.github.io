@@ -34,7 +34,7 @@
 
      
 
-    <div class="opacity-nav hidden" id="menuFullScreen">
+    <div class="opacity-nav" id="menuFullScreen">
 
         <div class="menu-index" id="buttons" style="z-index:999999">
             <i class="fa  fa-close closeicon"></i>
@@ -62,7 +62,7 @@
             </div>
 
             <div class="menu-indexmenu" id="button">
-                <i class="fa fa-bars menuicon"><span>Menu</span></i>
+                <i class="fa menuicon"><span>Menu</span></i>
             </div>
 
             <div class="header-menu right">
@@ -575,13 +575,15 @@
             })
         </script>
 
-        <script>
-            function toggleMenuFullScreen() {
-                document.getElementById('menuFullScreen').classList.toggle('hidden')
-            }
-            document.getElementById('button').addEventListener('click', toggleMenuFullScreen)
-            document.getElementById('buttons').addEventListener('click', toggleMenuFullScreen)
-        </script>
+<script>
+    function toggleMenuFullScreen() {
+        document.getElementById('menuFullScreen')
+            .classList.toggle('showMobileMenu')
+    }
+    document.getElementById('button').addEventListener('click', toggleMenuFullScreen)
+    document.getElementById('buttons').addEventListener('click', toggleMenuFullScreen)
+
+</script>
 
 </body>
 

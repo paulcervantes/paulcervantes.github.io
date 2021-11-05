@@ -170,7 +170,7 @@ input, textarea, select {
     opacity: 0;
     height: 0;
     /* transform: translate(999px); */
-    transition: opacity ease 2s;
+    transition: opacity ease 1s;
     overflow: hidden;
 }
 
@@ -230,6 +230,7 @@ ul.menu-fullscreen li {
 .closeicon {
     color: white;
     margin-right: 30px;
+    cursor: pointer;
 }
 
 .closeicon:hover {
@@ -238,18 +239,26 @@ ul.menu-fullscreen li {
 }
 
 span {
-    color: #364962;
-    padding-left: 10px;
-    font-family: 'Work Sans';
+    border: 2px solid #364962;
+    text-align: center;
+    padding: 8px 8px;
+    cursor: pointer;
+    background: transparent;
+    font-weight: 200;
+    width: 100%;
     font-size: 18px;
-    float: left;
-    margin-right: 10px;
+    transition: color .2s linear, background-color .2s linear, border-color .2s linear;
+    outline: none;
+    color: #364962;
+    margin-left: 8px;
+    font-family: 'Work Sans';
     font-weight: 400;
+    border-radius: 4px;
 }
 
 span:hover {
+    border: 2px solid #0499a8;
     color: #0499a8;
-    transition: color .2s linear;
 }
 
 .header-search {
